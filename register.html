@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Student Register form</h1>
+        <form>
+            <div>
+                <label for="fullname">Full Name:</label>
+                <input type="test" id="fullname" autofocus />
+            </div>
+            <br />
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="sample@gmail.com" />
+            </div>
+            <br />
+            <div>
+                <lable for="phone">Phone</lable>
+                <input
+                    type="number"
+                    id="phone"
+                    placeholder="999-999-9999"
+                    step="1000"
+                />
+            </div>
+            <br />
+            <div>
+                <label type="password">Password</label>
+                <input type="password" id="password" />
+            </div>
+            <br />
+            <div>
+                <lable for="dob">DOB</lable>
+                <input type="date" id="dob" />
+            </div>
+            <br />
+            <div>
+                <lable for="gender">Gender:</lable>
+                <input type="radio" name="gen" /> Male
+                <input type="radio" name="gen" />Female
+                <input type="radio" name="gen" />Others
+            </div>
+            <br />
+            <div>
+                <lable for="status">Maritial Status: </lable>
+                <input type="radio" name="status" /> Married
+                <input type="radio" name="status" /> Unmarried
+                <input type="radio" name="status" /> Others
+            </div>
+            <br />
+            <div>
+                <lable for="hobbies"> Hobbies</lable>
+                <input type="checkbox" name="hobbies" /> Singing
+                <input type="checkbox" name="hobbies" /> DAncing
+                <input type="checkbox" name="hobbies" />Cooking
+                <input type="checkbox" name="hobbies" />Drawing
+            </div>
+            <br />
+            <div>
+                <lable for="address">Address</lable>
+                <textarea cols="50" rows="4"></textarea>
+            </div>
+            <br />
+            <div>
+                <label for="qualification">Qualification</label>
+                <select>
+                    <option value="select your qualification">
+                        Select Qualification
+                    </option>
+                    <option value="SSC">SSC</option>
+                    <option value="Intermediate">Intermediate</option>
+                    <option value="Graduation">Graduation</option>
+                    <option value="Post Graduation">Post Graduation</option>
+                    <option value="Masters">Masters</option>
+                </select>
+            </div>
+            <br />
+            <div>
+                <label for="">Upload</label>
+                <input type="file" multiple />
+            </div>
+            <br />
+            <div>
+                <input type="checkbox" /> I agree all mentioned detials are
+                correct.
+            </div>
+            <br />
+            <div>
+                <input type="submit" value="Register" />
+                <input type="reset" value="Cancel" />
+            </div>
+            <p>If you have account please <a href="login.html">sign in </a></p>
+        </form>
+    </body>
+</html>
